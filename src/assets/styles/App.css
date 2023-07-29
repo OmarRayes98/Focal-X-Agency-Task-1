@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto,display=swap');
+:root {
+
+  --content-width: 1000px;
+  --breakpoint: 799px;
+  --nav-height: 70px;
+
+  --color-copyright : rgb(182, 187, 187);
+  --white-color: #fff;
+  --maincolor :#04a9f4;
+  --hero-bg:#f7fafc;
+  --hero-text:#94a0b0;
+  --text-color:#bcc5cf;
+  --section-bg:#e6f6fe;
+  --section-color:#20b3f6;
+  --footer-icon:#cacfd6;
+  --normal-font-size: .938rem;
+  --z-fixed: 100;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;}
+
+.container {
+width: 80%;
+margin: auto;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none ;
+}
+
+html::-webkit-scrollbar {
+  width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--maincolor);
+  border-radius: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}

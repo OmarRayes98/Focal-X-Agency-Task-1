@@ -1,0 +1,33 @@
+.content-btn{
+    color: var(--white-color);
+    background-color: var(--maincolor);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .content-btn{
+        font-size: 0.6em;
+        padding: 8px;
+        width: 100px;
+
+    }
+
+    
+}
+
+@media (max-width: 625px) {
+
+    .content-btn{
+        font-size: 0.4em;
+        padding: 8px 10px 8px 10px;
+        width: 100px;
+
+    }
+
+    
+}
